@@ -1,0 +1,297 @@
+<!DOCTYPE html> <html lang=ar class="js flexbox canvas canvastext webgl no-touch geolocation postmessage no-websqldatabase no-indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths" style><!--
+ Page saved with SingleFile 
+ url: https://mnustdch.menofia.education/static/PortalStudent.html# 
+ saved date: Sun Sep 06 2026 22:01:05 GMT+0300 (Eastern European Summer Time)
+--><meta charset=utf-8>
+<style media=screen,projection,print>/*!
+ * jQuery UI CSS Framework 1.8.23
+ *
+ * Copyright 2012, AUTHORS.txt (http://jqueryui.com/about)
+ * Dual licensed under the MIT or GPL Version 2 licenses.
+ * http://jquery.org/license
+ *
+ * http://docs.jquery.com/UI/Theming/API
+ */.ui-helper-clearfix:before,.ui-helper-clearfix:after{content:"";display:table}.ui-helper-clearfix:after{clear:both}/*!
+ * jQuery UI CSS Framework 1.8.23
+ *
+ * Copyright 2012, AUTHORS.txt (http://jqueryui.com/about)
+ * Dual licensed under the MIT or GPL Version 2 licenses.
+ * http://jquery.org/license
+ *
+ * http://docs.jquery.com/UI/Theming/API
+ *
+ * To view and modify this theme, visit http://jqueryui.com/themeroller/?ffDefault=Lucida%20Grande,%20Lucida%20Sans,%20Arial,%20sans-serif&fwDefault=bold&fsDefault=1.1em&cornerRadius=6px&bgColorHeader=deedf7&bgTextureHeader=03_highlight_soft.png&bgImgOpacityHeader=100&borderColorHeader=aed0ea&fcHeader=222222&iconColorHeader=72a7cf&bgColorContent=f2f5f7&bgTextureContent=04_highlight_hard.png&bgImgOpacityContent=100&borderColorContent=dddddd&fcContent=362b36&iconColorContent=72a7cf&bgColorDefault=d7ebf9&bgTextureDefault=02_glass.png&bgImgOpacityDefault=80&borderColorDefault=aed0ea&fcDefault=2779aa&iconColorDefault=3d80b3&bgColorHover=e4f1fb&bgTextureHover=02_glass.png&bgImgOpacityHover=100&borderColorHover=74b2e2&fcHover=0070a3&iconColorHover=2694e8&bgColorActive=3baae3&bgTextureActive=02_glass.png&bgImgOpacityActive=50&borderColorActive=2694e8&fcActive=ffffff&iconColorActive=ffffff&bgColorHighlight=ffef8f&bgTextureHighlight=03_highlight_soft.png&bgImgOpacityHighlight=25&borderColorHighlight=f9dd34&fcHighlight=363636&iconColorHighlight=2e83ff&bgColorError=cd0a0a&bgTextureError=01_flat.png&bgImgOpacityError=15&borderColorError=cd0a0a&fcError=ffffff&iconColorError=ffffff&bgColorOverlay=eeeeee&bgTextureOverlay=08_diagonals_thick.png&bgImgOpacityOverlay=90&opacityOverlay=80&bgColorShadow=000000&bgTextureShadow=04_highlight_hard.png&bgImgOpacityShadow=70&opacityShadow=30&thicknessShadow=7px&offsetTopShadow=-7px&offsetLeftShadow=-7px&cornerRadiusShadow=8px
+ */.ui-state-default a:link,.ui-state-default a:visited{color:#2779aa;text-decoration:none}.ui-state-hover a:hover{color:#0070a3;text-decoration:none}.ui-state-active a:link,.ui-state-active a:visited{color:#ffffff;text-decoration:none}.ui-widget :active{outline:none}/*!
+ * jQuery UI Resizable 1.8.23
+ *
+ * Copyright 2012, AUTHORS.txt (http://jqueryui.com/about)
+ * Dual licensed under the MIT or GPL Version 2 licenses.
+ * http://jquery.org/license
+ *
+ * http://docs.jquery.com/UI/Resizable#theming
+ *//*!
+ * jQuery UI Selectable 1.8.23
+ *
+ * Copyright 2012, AUTHORS.txt (http://jqueryui.com/about)
+ * Dual licensed under the MIT or GPL Version 2 licenses.
+ * http://jquery.org/license
+ *
+ * http://docs.jquery.com/UI/Selectable#theming
+ *//*!
+ * jQuery UI Accordion 1.8.23
+ *
+ * Copyright 2012, AUTHORS.txt (http://jqueryui.com/about)
+ * Dual licensed under the MIT or GPL Version 2 licenses.
+ * http://jquery.org/license
+ *
+ * http://docs.jquery.com/UI/Accordion#theming
+ *//*!
+ * jQuery UI Autocomplete 1.8.23
+ *
+ * Copyright 2012, AUTHORS.txt (http://jqueryui.com/about)
+ * Dual licensed under the MIT or GPL Version 2 licenses.
+ * http://jquery.org/license
+ *
+ * http://docs.jquery.com/UI/Autocomplete#theming
+ *//*!
+ * jQuery UI Button 1.8.23
+ *
+ * Copyright 2012, AUTHORS.txt (http://jqueryui.com/about)
+ * Dual licensed under the MIT or GPL Version 2 licenses.
+ * http://jquery.org/license
+ *
+ * http://docs.jquery.com/UI/Button#theming
+ */button.ui-button::-moz-focus-inner{border:0;padding:0}/*!
+ * jQuery UI Dialog 1.8.23
+ *
+ * Copyright 2012, AUTHORS.txt (http://jqueryui.com/about)
+ * Dual licensed under the MIT or GPL Version 2 licenses.
+ * http://jquery.org/license
+ *
+ * http://docs.jquery.com/UI/Dialog#theming
+ */.ui-dialog .ui-dialog-titlebar-close:hover,.ui-dialog .ui-dialog-titlebar-close:focus{padding:0}/*!
+ * jQuery UI Slider 1.8.23
+ *
+ * Copyright 2012, AUTHORS.txt (http://jqueryui.com/about)
+ * Dual licensed under the MIT or GPL Version 2 licenses.
+ * http://jquery.org/license
+ *
+ * http://docs.jquery.com/UI/Slider#theming
+ *//*!
+ * jQuery UI Tabs 1.8.23
+ *
+ * Copyright 2012, AUTHORS.txt (http://jqueryui.com/about)
+ * Dual licensed under the MIT or GPL Version 2 licenses.
+ * http://jquery.org/license
+ *
+ * http://docs.jquery.com/UI/Tabs#theming
+ *//*!
+ * jQuery UI Datepicker 1.8.23
+ *
+ * Copyright 2012, AUTHORS.txt (http://jqueryui.com/about)
+ * Dual licensed under the MIT or GPL Version 2 licenses.
+ * http://jquery.org/license
+ *
+ * http://docs.jquery.com/UI/Datepicker#theming
+ */.ui-datepicker-rtl .ui-datepicker-prev:hover{right:1px;left:auto}.ui-datepicker-rtl .ui-datepicker-next:hover{left:1px;right:auto}/*!
+ * jQuery UI Progressbar 1.8.23
+ *
+ * Copyright 2012, AUTHORS.txt (http://jqueryui.com/about)
+ * Dual licensed under the MIT or GPL Version 2 licenses.
+ * http://jquery.org/license
+ *
+ * http://docs.jquery.com/UI/Progressbar#theming
+ */</style>
+<style media=screen,projection,print>div.selector:active{background-position:-483px -192px}div.selector:active span{background-position:right -32px}div.selector:hover{background-position:-483px -224px}div.selector:hover span{background-position:right -64px}div.selector.focus:active,div.selector:hover:active,div.selector.active:hover{background-position:-483px -256px}div.selector.focus:active span,div.selector:hover:active span,div.selector.active:hover span{background-position:right -96px}div.selector.disabled:active{background-position:-483px -288px}div.selector.disabled:active span{background-position:right -128px}div.checker:active span{background-position:-23px -320px}div.checker:hover span{background-position:-46px -320px}div.checker.focus:active span,div.checker:active:hover span,div.checker.active:hover span{background-position:-69px -320px}div.checker:active span.checked{background-position:-115px -320px}div.checker:hover span.checked{background-position:-138px -320px}div.checker.focus:active span.checked,div.checker:hover:active span.checked,div.checker.active:hover span.checked{background-position:-161px -320px}div.checker.disabled:active span{background-position:-184px -320px}div.checker.disabled:active span.checked{background-position:-207px -320px}div.radio:active span{background-position:-23px -343px}div.radio:hover span{background-position:-46px -343px}div.radio.focus:active span,div.radio:active:hover span,div.radio.active:hover span{background-position:-69px -343px}div.radio:active span.checked{background-position:-115px -343px}div.radio:hover span.checked{background-position:-138px -343px}div.radio.focus:active span.checked,div.radio:hover:active span.checked,div.radio.active:hover span.checked{background-position:-161px -343px}div.radio.disabled:active span{background-position:-184px -343px}div.radio.disabled:active span.checked{background-position:-207px -343px}div.uploader:hover{background-position:0px -430px}div.uploader:hover span.action{background-position:right -526px}div.uploader:active span.action{background-position:right -558px}div.uploader:focus.active span.action,div.uploader.focus:active span.action,div.uploader:focus:active span.action{background-position:right -590px}.selector select:focus,.radio input:focus,.checker input:focus,uploader input:focus{outline:0}</style>
+<style>body{*font-size:small;*font:x-small}table{font-size:inherit}body *{line-height:1.22em}em,strong,th{font-style:normal;font-weight:normal}q:before,q:after{content:""}body{line-height:1.3}a:hover{text-decoration:none}h1{font-size:197%}</style>
+<style>html{font:inherit;margin:0px;padding:0px;border:0px currentColor;vertical-align:baseline;font-size-adjust:inherit;font-stretch:inherit}body{font:inherit;margin:0px;padding:0px;border:0px currentColor;vertical-align:baseline;font-size-adjust:inherit;font-stretch:inherit}div{font:inherit;margin:0px;padding:0px;border:0px currentColor;vertical-align:baseline;font-size-adjust:inherit;font-stretch:inherit}span{font:inherit;margin:0px;padding:0px;border:0px currentColor;vertical-align:baseline;font-size-adjust:inherit;font-stretch:inherit}h1{font:inherit;margin:0px;padding:0px;border:0px currentColor;vertical-align:baseline;font-size-adjust:inherit;font-stretch:inherit}h3{font:inherit;margin:0px;padding:0px;border:0px currentColor;vertical-align:baseline;font-size-adjust:inherit;font-stretch:inherit}p{font-size-adjust:inherit;font-stretch:inherit}em{font:inherit;margin:0px;padding:0px;border:0px currentColor;vertical-align:baseline;font-size-adjust:inherit;font-stretch:inherit}img{font:inherit;vertical-align:baseline;font-size-adjust:inherit;font-stretch:inherit}strong{font:inherit;margin:0px;padding:0px;border:0px currentColor;vertical-align:baseline;font-size-adjust:inherit;font-stretch:inherit}ul{font:inherit;border:0px currentColor;vertical-align:baseline;font-size-adjust:inherit;font-stretch:inherit}li{font:inherit;padding:0px;border:0px currentColor;vertical-align:baseline;font-size-adjust:inherit;font-stretch:inherit}table{font:inherit;margin:0px;padding:0px;border:0px currentColor;vertical-align:baseline;font-size-adjust:inherit;font-stretch:inherit}tbody{font:inherit;margin:0px;padding:0px;border:0px currentColor;vertical-align:baseline;font-size-adjust:inherit;font-stretch:inherit}thead{font:inherit;margin:0px;padding:0px;border:0px currentColor;vertical-align:baseline;font-size-adjust:inherit;font-stretch:inherit}tr{font:inherit;margin:0px;padding:0px;border:0px currentColor;vertical-align:baseline;font-size-adjust:inherit;font-stretch:inherit}th{font:inherit;margin:0px;vertical-align:baseline;font-size-adjust:inherit;font-stretch:inherit}td{font:inherit;margin:0px;border:0px currentColor;font-size-adjust:inherit;font-stretch:inherit}header{font:inherit;border:0px currentColor;vertical-align:baseline;font-size-adjust:inherit;font-stretch:inherit}nav{font:inherit;border:0px currentColor;vertical-align:baseline;font-size-adjust:inherit;font-stretch:inherit}section{font:inherit;margin:0px;border:0px currentColor;vertical-align:baseline;font-size-adjust:inherit;font-stretch:inherit}header{display:block}section{display:block}blockquote::before{content:none}blockquote::after{content:none}q::before{content:none}q::after{content:none}table{border-collapse:collapse;border-spacing:0}html{overflow-y:scroll}nav li{list-style:none;margin:0px}a:link{-webkit-tap-highlight-color:#FF5E99}body{color:rgb(102,102,102)}body{background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAC7gAAAABCAYAAABO1+M+AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAADhJREFUeNrsw7ENACEMBLADvdgqy2cdlviGggmobMkjybx+5+ruXVUBAAAAAAAAAAAAAIAXfgEGAMWSA/5fRHjVAAAAAElFTkSuQmCC)repeat-y 0px 0px;font-family:"PT Sans",Arial,sans-serif;font-size:13px;zoom:1}body section[role=main]{padding:25px;height:100%;min-width:669px;background-color:rgb(255,255,255)}a:active{color:#2779c3}section[role=navigation] header{margin:0px 2px 25px 0px;padding-left:25px}section[role=navigation] header h1{font-style:italic;margin-top:3px;text-shadow:none}#user-info{height:55px;border-top-color:currentColor;border-top-width:1px;border-top-style:solid}#user-info img{float:left;background-color:rgb(255,255,255)}#user-info div{margin-left:2px;float:left}#main-nav ul li a:hover{color:rgb(110 33 181)}.button-link:hover{color:rgb(255,255,255);background-color:rgb(76,76,76)}button:disabled{font-weight:normal;cursor:not-allowed;box-shadow:none;text-shadow:none}</style>
+<style>.add-new-widget.widget a:hover strong{color:rgb(153,153,153)}.widget .close-widget:hover{color:rgb(140,140,140)}p{border:0 none currentcolor;font:inherit;padding:0;vertical-align:baseline}#main-nav ul li.current a:hover{color:rgb(110 33 181)}#main-nav ul li a:hover{color:rgb(110 33 181)}#main-nav ul li li a:hover{color:rgb(174,67,46)}#main-nav ul li.current li a:hover{color:rgb(174,67,46)}#user-info div>a:hover{color:rgb(174,67,46)}body{background-color:rgb(230,230,230)}#user-info{background-color:rgb(217,217,217)}#user-info img{border-color:rgb(179,179,179)}#user-info{border-color:rgb(191,191,191)}h1{text-shadow:0px 1px 1px #b3b3b3}h3{text-shadow:0px 1px 1px #b3b3b3}</style>
+
+<style id="basic-password-protection">
+/* Basic client-side password screen for this static demo. */
+body:not(.password-unlocked) > *:not(#password-screen) {
+  visibility: hidden !important;
+}
+#password-screen {
+  position: fixed !important;
+  inset: 0 !important;
+  z-index: 2147483647 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  visibility: visible !important;
+  background: #f4f7fa !important;
+  font-family: "Segoe UI", Tahoma, Arial, sans-serif !important;
+  direction: ltr !important;
+}
+#password-screen .password-box {
+  width: min(90%, 380px) !important;
+  box-sizing: border-box !important;
+  padding: 32px 28px !important;
+  background: #fff !important;
+  border-radius: 16px !important;
+  box-shadow: 0 10px 35px rgba(0,0,0,.12) !important;
+  text-align: center !important;
+}
+#password-screen h2 {
+  margin: 0 0 8px !important;
+  color: #1a3a5c !important;
+  font-size: 22px !important;
+}
+#password-screen p {
+  margin: 0 0 20px !important;
+  color: #66788a !important;
+  font-size: 14px !important;
+  line-height: 1.5 !important;
+}
+#password-screen input {
+  width: 100% !important;
+  box-sizing: border-box !important;
+  padding: 12px 14px !important;
+  border: 1px solid #cbd6df !important;
+  border-radius: 9px !important;
+  outline: none !important;
+  font-size: 15px !important;
+  direction: ltr !important;
+  text-align: left !important;
+}
+#password-screen input:focus {
+  border-color: #2c7ab1 !important;
+  box-shadow: 0 0 0 3px rgba(44,122,177,.12) !important;
+}
+#password-screen button {
+  width: 100% !important;
+  margin-top: 12px !important;
+  padding: 12px 14px !important;
+  border: 0 !important;
+  border-radius: 9px !important;
+  background: #2c7ab1 !important;
+  color: #fff !important;
+  font-size: 15px !important;
+  cursor: pointer !important;
+}
+#password-screen button:hover {
+  background: #1a5a8a !important;
+}
+#password-error {
+  min-height: 20px !important;
+  margin: 10px 0 0 !important;
+  color: #c62828 !important;
+  font-size: 13px !important;
+}
+body.password-unlocked > #password-screen {
+  display: none !important;
+}
+</style>
+
+<title id=title>Monufia National University</title>
+<style>@font-face{font-family:PT Sans;src:local("PT Sans"),local("PTSans-Regular");font-weight:normal;font-style:normal}@font-face{font-family:PT Sans;src:local("PT Sans Italic"),local("PTSans-Italic");font-weight:normal;font-style:italic}</style>
+<style>#divContents,.grades-header,.student-info-card,.grades-table,.semester-summary{font-family:"Segoe UI","Tahoma","Arial",sans-serif}.grades-header{text-align:center;margin-bottom:15px}.grades-header h1{color:#2c7ab1;font-size:18px;font-weight:bold;margin-bottom:5px;display:inline-block;padding-bottom:3px;border-bottom:2px solid #2c7ab1}.grades-header h3{color:#555;font-size:13px;font-weight:normal;margin-top:3px}.student-info-card{background:#2c7ab1;padding:10px 15px;border-radius:10px;margin-bottom:15px}.student-info-card td{padding:3px 6px;font-size:13px;color:white}.student-info-card .student-label{font-weight:600;opacity:0.85;font-size:12px}.student-info-card .student-value{font-weight:500;font-size:13px}.semester-title{display:inline-block;background:#e8f0f5;color:#2c7ab1;padding:3px 14px;border-radius:20px;margin:10px 0 8px 0;font-weight:600;font-size:13px;border-right:3px solid #2c7ab1}.grades-container{max-width:100%;overflow-x:auto;margin-bottom:10px}.grades-table{width:100%;border-collapse:collapse;background:white;font-size:13px}.grades-table th{background:#e8f0f5;color:#2c7ab1;font-weight:600;padding:6px 4px;font-size:12px;border:1px solid #d0e0e8}.grades-table td{padding:5px 4px;border:1px solid #eee;font-size:13px;color:#333}.grades-table tbody tr:hover{background-color:#f9f9f9}.grades-table td:nth-child(2){text-align:right;font-size:13px}.grade-fail{color:#c62828;font-weight:bold;font-size:13px}.semester-summary{background:#f5f7f9;padding:6px 12px;border-radius:6px;margin:5px 0 3px 0;border-right:3px solid #2c7ab1;font-size:12px;line-height:1.5}.semester-summary span{display:inline-block;margin-left:12px;font-size:12px}.semester-summary .highlight{color:#2c7ab1;font-weight:bold;font-size:13px}@media (max-width:768px){.grades-table th,.grades-table td{padding:4px 3px;font-size:11px}.grades-table td:nth-child(2){font-size:11px}.semester-summary span{display:block;margin-bottom:3px;margin-left:0}.student-info-card td{display:block;text-align:center;padding:2px}}.exam-seats-table tbody tr:hover{background-color:#f5f8fc}.warning-radio-group label:hover{color:#2c7ab1}.warning-table tbody tr:hover{background-color:#f5f8fc}.warning-table tbody tr:nth-child(even):hover{background-color:#f0f4f9}#navigation,#navigation *{font-family:"Segoe UI","Tahoma",Arial,sans-serif!important}#navigation>HEADER{margin-left:20px}#navigation>HEADER .university-name{font-weight:700;color:#1a5a8a;font-family:"Segoe UI","Tahoma",Arial,sans-serif!important}#navigation>HEADER em{font-family:"Segoe UI","Tahoma",Arial,sans-serif!important}#user-info{display:flex!important;gap:5px!important;padding:36px 11px!important;margin:8px 15px 12px 15px!important;background:linear-gradient(135deg,#f5f9fc 0%,#e8f0f5 100%)!important;border-radius:9px!important;box-shadow:0 2px 8px rgba(0,0,0,0.04)!important;width:auto!important;overflow:visible!important}#UsrImg{width:54px!important;height:54px!important;border-radius:50%!important;border:2.5px solid #2c7ab1!important;object-fit:cover!important;flex-shrink:0!important;background:#ffffff!important;margin:0!important;padding:0!important}#user-info>DIV{display:flex!important;flex-direction:column!important}#stdLogName{font-size:14px!important;font-weight:600!important;color:#1a3a5c!important;cursor:default!important;display:block!important;line-height:1.3!important;margin:0!important;padding:0!important}#user-info>DIV>DIV:nth-child(2){font-size:12px!important;color:#5a7a9a!important;display:block!important;line-height:1.4!important;margin:2px 0 0 0!important;padding:0!important}#stdProgName{font-weight:600!important;color:#1a3a5c!important}#user-info>DIV>DIV:last-child{display:flex!important;margin-top:8px!important;align-items:center!important}.user-action{font-size:11px!important;text-decoration:none!important;padding:3px 12px!important;border-radius:14px!important;transition:all 0.25s ease!important;display:inline-block!important;cursor:pointer!important;border:none!important;outline:none!important;line-height:1.4!important}.user-action#LogOutImg{color:#c62828!important;background:rgba(198,40,40,0.08)!important;padding:3px 20px!important;font-weight:500!important}.user-action#LogOutImg:hover{background:#c62828!important;color:white!important}.user-action#ChangePass,.user-action#changePortalLang{color:#2c7ab1!important;background:rgba(44,122,177,0.08)!important}.user-action#ChangePass:hover,.user-action#changePortalLang:hover{background:#2c7ab1!important;color:white!important}@media (max-width:768px){#user-info{flex-direction:column!important;text-align:center!important;padding:12px!important;gap:10px!important}#UsrImg{width:48px!important;height:48px!important}#stdLogName{font-size:13px!important;text-align:center!important}#stdProgName{font-size:11px!important;text-align:center!important}#user-info>DIV{align-items:center!important;text-align:center!important}#user-info>DIV>DIV:last-child{justify-content:center!important}}#portal-nav{position:relative;height:calc(214vh - 5px)!important;min-height:calc(214vh - 5px)!important;margin:5px 15px;padding:15px;border-radius:18px;display:flex;flex-direction:column;overflow:hidden!important}#portal_menu{list-style:none;padding:0;margin:0;font-family:"Segoe UI","Tahoma",Arial,sans-serif!important;flex:1;overflow:hidden!important}#portal_menu>li{margin-bottom:4px;border-radius:10px;transition:all 0.3s ease;overflow:hidden}#portal_menu>li>a{display:flex!important;align-items:center;gap:10px;padding:10px 16px!important;font-size:13px;color:#1a3a5c!important;background:transparent!important;border-radius:10px!important;text-decoration:none!important;transition:all 0.25s ease!important;border:none!important;height:auto!important;min-height:40px!important;background-image:none!important;cursor:pointer;font-family:inherit!important}#portal_menu>li>a .menu-icon{display:inline-flex;align-items:center;justify-content:center;width:28px;height:28px;font-size:18px;flex-shrink:0}#portal_menu>li>a .menu-text{flex:1;font-size:14px;font-weight:500;color:#1a3a5c;font-family:inherit!important}#portal_menu>li:hover{background:#e8f0f5!important;border-radius:10px}#portal_menu>li:hover>a{background:transparent!important}#portal_menu>li:hover>a .menu-text{color:#2c7ab1}#portal_menu>li.current{background:linear-gradient(135deg,#2c7ab1 0%,#1a5a8a 100%)!important;border-radius:10px!important;box-shadow:0 4px 15px rgba(44,122,177,0.25)}#portal_menu>li.current .menu-text{color:white!important}#portal_menu>li.current .menu-icon{background:rgba(255,255,255,0.15);border-radius:6px}#portal_menu ul li:hover{background:rgba(44,122,177,0.08)!important;border-radius:8px}#portal_menu ul li:hover a{background:transparent!important}#portal_menu ul li:hover a .menu-text{color:#2c7ab1}@media (max-width:768px){#portal-nav{margin-right:0!important;width:100%}#portal_menu>li>a{padding:8px 12px!important;font-size:12px;min-height:36px}#portal_menu>li>a .menu-text{font-size:12px}}.fees-table tbody tr:hover td{background-color:#f5f8fc}.payment-btn:hover:not(:disabled){background-color:#2c7ab1;color:white;transform:translateY(-2px);box-shadow:0 4px 12px rgba(44,122,177,0.3)}.payment-btn:disabled{opacity:0.5;cursor:not-allowed;border-color:#ccc}.ui-multiselect li a.action:hover{background:#1a5a8a!important;transform:scale(1.1)!important}.ui-multiselect .add-all:hover,.ui-multiselect .remove-all:hover{background:#2c7ab1!important;color:white!important}.desires-radio-group input[type="radio"]:checked{border-color:#2c7ab1!important;background:#2c7ab1!important}.desires-radio-group input[type="radio"]:checked::after{content:""!important;position:absolute!important;top:50%!important;left:50%!important;transform:translate(-50%,-50%)!important;width:6px!important;height:6px!important;border-radius:50%!important;background:white!important}.desires-radio-group input[type="radio"]:hover{border-color:#2c7ab1!important}.desires-radio-group input[type="radio"]:focus{outline:none!important;box-shadow:0 0 0 3px rgba(44,122,177,0.15)!important}.desires-radio-group label:hover{color:#2c7ab1!important}.desires-btn-primary:hover:not(:disabled){transform:translateY(-2px)!important;box-shadow:0 4px 15px rgba(44,122,177,0.35)!important}.desires-btn-primary:active:not(:disabled){transform:translateY(0px)!important}.desires-btn-primary:disabled{opacity:0.5!important;cursor:not-allowed!important;transform:none!important;box-shadow:none!important}.desires-btn-print:hover{background:#2c7ab1!important;color:white!important;transform:translateY(-2px)!important;box-shadow:0 4px 12px rgba(44,122,177,0.25)!important}.desires-btn-print:active{transform:translateY(0px)!important}@media (max-width:768px){.ui-multiselect input.search:focus{width:100px!important}}#complaintTbl select:focus,#withdrawalTbl select:focus{border-color:#2c7ab1;box-shadow:0 0 0 3px rgba(44,122,177,0.1)}#complaintTbl select option:hover,#withdrawalTbl select option:hover{background:#e8f0f5;color:#2c7ab1;cursor:pointer}#complaintTbl select option:checked,#withdrawalTbl select option:checked{background:#2c7ab1;color:white}#complaintTbl textarea:focus,#withdrawalTbl textarea:focus{border-color:#2c7ab1;box-shadow:0 0 0 3px rgba(44,122,177,0.1)}.btn-save:hover,.btn-save-withdrawal:hover{transform:translateY(-2px);box-shadow:0 4px 15px rgba(44,122,177,0.35)}#grid_data tbody tr:hover td,#grid_withdrawal_data tbody tr:hover td{background-color:#f5f8fc}.btn-delete:hover{background:#c62828}</style>
+<style>.blocker:before{content:"";display:inline-block;height:100%;vertical-align:middle;margin-right:-0.05em}@-webkit-keyframes sk-stretchdelay{0%,40%,100%{-webkit-transform:scaleY(0.5)}20%{-webkit-transform:scaleY(1.0)}}@keyframes sk-stretchdelay{0%,40%,100%{transform:scaleY(0.5);-webkit-transform:scaleY(0.5)}20%{transform:scaleY(1.0);-webkit-transform:scaleY(1.0)}}</style>
+<style>body{display:inline-block}td{vertical-align:top;white-space:nowrap}th{text-align:center!important}Button:hover{background-color:#839ea5;color:white}</style>
+<style media=screen>.emailTable tbody tr:hover td,.emailTable tbody tr:hover th{background-color:#F7F7F7}.btn:hover{color:#333;text-decoration:none;background-color:#E6E6E6;background-position:0-15px;-webkit-transition:background-position .1s linear;-moz-transition:background-position .1s linear;-o-transition:background-position .1s linear;transition:background-position .1s linear}</style><style media=screen>.tagedit-list li.tagedit-listelement-new input:focus{outline:none}.tagedit-list li.tagedit-listelement-old:hover{background-color:#D6E4FF}.tagedit-list li.tagedit-listelement-edit input:focus{outline:none}.tagedit-list li.tagedit-listelement-deleted:hover{background-color:#FFD6D6;border-color:#FFB7B7;border-style:dashed}</style><meta name=referrer content=no-referrer><link type=image/x-icon rel="shortcut icon" href=data:image/vnd.microsoft.icon;base64,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ADo6DEM6Ojo6Ojo6Ojo6AABDAgMNQwM6Ojo6Ojo6Ojo6Ojo6Ojo6OgAAOjo6Ojo6Ojo6Ojo6A0cjMAJGDSw6Ojo6Ojo6Ojo6OjowAjo6Og0DOjoDFzo6MAM6Ojo6Ojo6Ojo6R0MCDAI6AwxGDQM6Ojo6Ojo6Ojo6Ojo6OgAAOjo6Ojo6Ojo6OjACRENDAAwlOjo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6OgMCQ0Y6Og1DDA06Azo6DAM6Ojo6Ojo6OgAAOjo6Ojo6Ojo6OiwlMANEDTo6Ojo6Ojo6Ojo6Ojo6Ojo6AyMCAgICAgICAgICAkcjMDo6Ojo6Ojo6Ojo6OjA6OgMCJUMwDA06AgI6Ojo6Ojo6OgAAOjo6Ojo6OgMCDQI6Og0NJTo6Ojo6Ojo6Ojo6OjoDIwICAkcDPDo6Ojo6OjowAyVHAgJHIwM6Ojo6Ojo6Ojo6OjoCAA06Q0ZGLDo6Ojo6Ojo6OgAAOjo6Ojo6JQwMDUYsAw0MOjo6Ojo6Ojo6OjoDIQ1HAzA6Ojo6Ojo6Ojo6Ojo6Ojo6OjowJQICIzA6Ojo6Ojo6Ojo6RzA6RjojRSM6Ojo6Ojo6OgAAOjo6Ojo6AzA6OhclOgIlOjo6Ojo6Ojo6JQICAzo6Ojo6PANHRw0YRjoDDAwlJSUwMDo6OjowJQICAzo6Ojo6Ojo6OjoDDAM6MAwjOjo6Ojo6OgAAOjo6Ojo6Ojo6A0Y6Ojo6Ojo6Ojo6MAICIzo6OjoDAgIlQw1DAgBEQzoCAEZEDURDDQ0aOjA6OjoDRwJHOjo6Ojo6OjolDAMMAzBDAgM6Ojo6OgAAOjo6OjpHQ0c6JSM6Ojo6Ojo6OjACAgM6OjojAiNEDAACQ0NGLAAAAjoCAAxDAgAADUMXRwANOjo6OjojAkc6Ojo6OjpHDDoCQ0YAAAAlOjo6OgAAOjo6OgMNRgI6Ojo6Ojo6OjoDIwIDOjoDMAJGAEZDAgACAEQMMAxGJTpHDA0MDUMNDEYNDUMAI0YYPDo6OiMCIzo6OjoCDDo6Ag0CA0csOjo6OgAAOjo6OiUNDDo6Ojo6Ojo6OkcCAzo6Aw1DDUUMQwwAF0ZHRyU6Ojo6Ojo6Ojo6OjoDIw0NAA1DAgAMAw0lOjo6JQIjOjoNDTo6Ojo6Ojo6Ojo6OgAAOjo6OjpDQw06Ojo6OjoDAiU6OiVGFwxELEZGQ0dHAzo6Ojo6OjoDMAMDMDo6Ojo6Ojo6IyUMDQAMAwANDAM6OjpHAgMCAjo6Ojo6Ojo6Ojo6OgAAOjo6OiUCOiw6Ojo6AwIjOjojDEYAGkRFJSMCMDo6OjBHAgICAkdHR0dHRwICAgJHAzo6OjowAxcMJUNEAAIMRzo6MEcCAzo6Ojo6Ojo6Ojo6OgAAOjo6OjA6AwM6OjpHAjA6AwwCAEJDDEMCMDo6OiMCAgJHAzA6Ojo6Ojo6Ojo6MAMjAgICIzo6OjoDPAxDACUNRhg6OjoDAiM6Ojo6Ojo6Ojo6OgAAOjo6OjoCGDA6MAIjOiwMREYjAA0NAzo6OgMCAkcDOjo6Ojo6Ojo6Ojo6Ojo6Ojo6OjoDRwICIzo6OjpHDQJEQ0YCAjo6OiMCMDo6Ojo6Ojo6OgAAOjo6OjojOjojAjA6AkYAQw0lDTA6OjAjAgIDOjo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6OjoDRwIjAzo6OjBDRkcCADolOjoDAiU6Ojo6Ojo6OgAAOjo6Ojo6MAIlOiVEQw1EAAI6OjoDIQIlOjo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6OjoDAgIDOjo6AgICQzpGAjo6OiMCMDo6Ojo6OgAAOjo6OjolAjA6DEYAAA0CIzo6AyECAzo6Ojo6OTk6Ojo6OTY6Ojo6Ojo6Ojo6NjY6Ojo6OTk5Ojo6OjACAgM6OjojRANDDToDOjowAiU6Ojo6OgAAOjoDFw0jOjowQ0NEQyU6OjACRwM6OjkrNis2OTk2Njk6OSc1Ojo6Ojo6Ojo2Jzk6OjY2OTk5NjYrOTo6MEcCLDo6A0cADToNRjo6OiMCMDo6OgAAOjoDRAACOjo6AAAlOjo6RwIDOjo6KzY5OTo6Ojo6OTYrOTYnNjo6Ojo6OjYnNS82Kzk6Ojo6Ojo5Nis5OjowRwIwOjojDEcAQzo6OjolDAIDOgAAOjo6A0MAAjowDSw6OiUCJTo6Ojk2OTo6Ojo6Ojo6Ojo5NiszJyc2OTk4KzMnNjY4Ojo6Ojo6Ojo6Ojk2OTo6OgMCIzo6OgJDRAM6OjpGAAAlOgAAOjo6OiUAAEc6OjoDAkc6Ojo6OSs6Ojo6Ojo6Ojo6Ojo6Ojo6OTg2KjQrNjk6Ojo6Ojo6Ojo6Ojo6Ojo6Nis6Ojo6JQIlOjo6AgI6OgwAAA06OgAAOjo6OjoCAAAlOiMCMDo6Ojo5ODo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojk2Ojo6OjpHAjA6OgM6AgAADDo6OgAAOjo6Ojo6AgBDAiU6Ojo6Ojk2Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo5ODo6Ojo6AwIlOjpHAABCAzo6OgAAOjo6Ojo6OjoDMDo6Ojo6OTg6Ojo6Ojo6Ojo6OgMUCgoKChQDOiU6Ojo6AzoDFAoKCgoUAzo6Ojo6Ojo6Ojo6OTk6Ojo6OjolAgIAAAAlOjo6OgAAOjo6Ojo6Ojo6Ojo6Ojk4Kzo6Ojo6Ojo6Ojo6OjoUQAFAQAFAFAMDOjoDJRRAAUABQEAcMjo6Ojo6Ojo6Ojo6OjYrOTo6Ojo6MBdHRyU6Ojo6OgAAOjo6Ojo6Ojo6Ojo5NjYnNjo6Ojo6Ojo6OjoDAwM6Mh0RCkAKCRoCR0cCGglBQAoUHTI6AwMDOjo6Ojo6Ojo6OjkzMys2Ojo6Ojo6Ojo6Ojo6OgAAOjo6Ojo6Ojo6OjYnJzMnOTo6Ojo6OjoyHApBQEAKHDoDJSUlJUcDOjolRyUlJSUDOhwKQEFACh0DOjo6Ojo6OjoqJzMnNjo6Ojo6Ojo6Ojo6OgAAOjo6Ojo6Ojo6OSczNSc2Ojo6Ojo6Oh1AAUABQEBAChhHOjowJRQDOjoDFCY6OjpHAgpAQAEBQAFAHTo6Ojo6Ojo5Myo1JzY6Ojo6Ojo6Ojo6OgAAOjo6Ojo6Ojo6Myc2JzU6Ojo6Ojo6OgMmHBQUHR1HLB0lOgMKQAo6Ojo6CgEKAzomJSUlHRQUFB0mAzo6Ojo6Ojo6KzM0JzM5Ojo6Ojo6Ojo6OgAAOjo6Ojo6OjkqMyozJzY6Ojo6Ojo6OjI6Ojo6AywwJUAfOgpAQB06Ojo6H0BACjomQCYtAyw6Ojo6Ojo6Ojo6Ojo6NicqNSc1OTo6Ojo6Ojo6OgAAOjo6Ojo6OS82KzYnNSs6Ojo6OjolFAlBQCUCAzomQEADHAEBFDo6Ojo6OgpAQBwDAUAmOgMCJUFAChEmOjo6Ojo6ODMzKzYrNjk6Ojo6Ojo6OgAAOjo6Ojo6Ojk5OTk1JzY6Ojo6AwpAAUABHDAROjoKAUEDQUAUOjo6Ojo6OjoUAQoDCkAKOjoRAxxAAUABCwM6Ojo6OScnNjo5OTk6Ojo6Ojo6OgAAOjo6Ojo6Ojk2NjorMzY6OjoDQAFAQAomOhpAJgNAQBwmARw6Ojo6Ojo6Ojo6HEAmFAFAAx8BGjomCkBAAUADOjo6OTM2OjgrOTo6Ojo6Ojo6OgAAOjo6Ojo6OTUnOTo5Jzk6OjoUChQdAzI9JREBHQMBQDomJjo6Ojo6Ojo6Ojo6OiUfOkFAJhVAESMwOgMcFAoUOjo6Oio2Ojk2Jzk6Ojo6Ojo6OgAAOjo6Ojo5NTMrOjo4OTo6Ojo6OjoxRyEDA0FAHB9AJgQEOjo6Ojo6BDA6Ojo6OjoaOiYBHBxACjADAkcwOjo6Ojo6OjkuOTo2NSc2Ojo6Ojo6OgAAOjo6Ojo2Jyc2Ojk5Ojo6OjoDFAoKRxw6JkABHyYcBAgIGzo6OjoTCAgwOjo6MAgIEzoUHR0BQBIeR0cLCREDOjo6Ojo5OTo2JzMqOjo6Ojo6OgAAOjo6OjozJzU2Ojk5Ojo6Oh1AQEAdJQomJkBAOgMEEzAwEwQ6OhsbMAQQMDo6EAQwHhMxMQNAQAMVCiUaQEBBHTo6Ojo6NjorMyozOTo6Ojo6OgAAOjo6Oi42KzMnOzo6Ojo6HUBAAR0sJUAKA0AKEwQQBAgIBBMTExIdBhMlBx4IBBYGBBsQGxsLQAQKQAMDFAFAQB06Ojo6Ojo2JzYrNjo6Ojo6OgAAOjo6Ojk5OSszOTo6OjoDQAFAFAMDJgFBAwocBBMEEwQwCAQCAiAPJxgPIg9HGhsyEwQeEzARCgNAASYtAxQBQEADOjo6Ojo1JzY6OTk6Ojo6OgAAOjo6OTk6OTknNzo6OjoKQBQDOkc6HUBAHRUSHjAQBBsTIg4iIA8iDwIiDycCAkcQBBMeMAgdFRJAQCY6RzoDFAEKOjo6OjonOTo5Ojk6Ojo6OgAAOjo6OTorOTo5Ljo6OgMUAzoDAiU6A0BAHRsEEwgEExICDyIHByIOAg8CGAYCGA8YEAQQCAQEBB1AQAM6RwIyOgMUAzo6Ojk2OjorOTo6Ojo6OgAAOjo6OjY1Ojo5OTo6Ojo6OhQKLBQUOgpAAzIQBDoeGzY1GA8zJw8iNTMPGSciDyc1JxMwOhMbOgNACjoUFEcJETo6Ojo6Ojo5Ojo2Kjo6Ojo6OgAAOjo6OSc2Ojk6OTo6OjoDCgEKBBQBJSZAAzowCBMT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Ois2Njk5OSs2Ojo6Ojo6OgAAOjo6Ojo5OTo5OTo5OSs6Ojo6OgpAQDpHR0cUCgoKFCQvOTk5OTk5Ozk5OTk5OTkvJhQKCgoURwICOkBAETo6Ojo6Njk5Ojk5Ojk5Ojo6Ojo6OgAAOjo6Ojo6OTk6Mzk6OTo5Ojo6Oh0BQDAmEQMlAyYDLzk5OTk5OTk5OTk5Ozk5OTg5OS8mJiUsAxEfA0ABHzo6Ojo6OTo5OSs5OTk6Ojo6Ojo6OgAAOjo6Ojo6Ojk5KzM4Ojo6Ojo6OjoKQDofAQs6HEA/QAodOTk5OTo5OTk5OTk5OTkmCkABQB06CwEdA0AKOjo6Ojo6Ojo5Nio5OTo6Ojo6Ojo6OgAAOjo6Ojo6Ojo6MyozKDY5Ojo6OjomQAMDQAEUOkFAQEABCys6OTk5Ojk5Ozk6LxQBQD9AQDoUAUAmA0AmOjo6Ojo5NjYnMzM5Ojo6Ojo6Ojo6OgAAOjo6Ojo6Ojo6KzMnNSs2Kzk6Ojo6JjA6QEBAMC8JQAFAAUEmODo5Ozk5OS8kCkBAQEBAJQNAQEE6AyY6Ojo6OjYrNiozKic6Ojo6Ojo6Ojo6OgAAOjo6Ojo6Ojo6NjMrOTk5Ojk5Ojo6Ojo6HwFAFDkvLyYcHBQULzo5OTk6LxwKQEEJChQDORRAASY6Ojo6Ojo5Lzk6OTkrMzY6Ojo6Ojo6Ojo6OgAAOjo6Ojo6Ojo6Oio5Ojk5OTo5Ojo6Ojo6OhQBCTo5OTk6OTk5Lzk5Ozk5OTk5Ly8DOTo4OgoBFDo6Ojo6Ojo5Ojk5OTo5Kjk6Ojo6Ojo6Ojo6OgAAOjo6Ojo6Ojo6Ojk5OjgrNjY6Ojo6Ojo6OjoUASY2Ojg6Njo5Ojk5OTk6OTo5OjY6Njo5JgEUOjo6Ojo6Ojo6NjY2Kzs5OTo6Ojo6Ojo6Ojo6OgAAOjo6Ojo6Ojo6Ojo6OTkzJzMqOTo6Ojo6Ojo5FBw6OTk6ODo5Ojk6OTk5ODo4Ojg6OTk5JBU5Ojo6Ojo6Ojk2JzMnNjk6Ojo6Ojo6Ojo6Ojo6OgAAOjo6Ojo6Ojo6Ojo6OjkqMyo2Kjk6Ojo6Ojk5Ojg6Njo5OTo4Ojg6ODk6Njo2Ojk5OTk6ODo4OTo6Ojo6OTYrNiozOTo6Ojo6Ojo6Ojo6Ojo6OgAAOjo6Ojo6Ojo6Ojo6Ojo2Kzk5OTY5Ojo6OjY6OTk6ODo4Ojk5OjY6OTk6ODo2Ojk5Ojg6OTk6Njo6Ojo5Njk5LjcnOjo6Ojo6Ojo6Ojo6Ojo6OgAAOjo6Ojo6Ojo6Ojo6Ojo5OTk5Kzk6Ojo6ODk6Njo4OTo2Ojk5OjY6ODk6Njo4OTo2Ojk5OjY6ODk6Ojo6OSs2OTk4Ojo6Ojo6Ojo6Ojo6Ojo6OgAAOjo6Ojo6Ojo6Ojo6Ojo6OTo5Nic4Ojo6Njo5OTo2Ojk4OjY6OTg6OTk6Njo5OTo2Ojk4OjY6OjY6Ojo5KjY5Ojk6Ojo6Ojo6Ojo6Ojo6Ojo6OgAAOjo6Ojo6Ojo6Ojo6Ojo6Ojo6OjY2OTo4OTo2Ojk5Ojk5OjY6OTY6ODs6Njo5ODo5OTo2Ojk4OjY5Ojk2Njk6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6OgAAOjo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojk4Ojg5OjY6OjY6OTg6OTg6Njk6Njo6Njo5OTo4OTo2Ojo2Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6OgAAOjo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6NjM5OjY6OjY6OTg6OTk6OTk6ODk6Njo6ODo6Njo5Njo5ODo4Njo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6OgAAOjo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6NjU6Nzk6ODk6Njk6ODk6Njk6Njk6ODk6Njk6Njs6Njo6Njo2Mzk6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6OgAAOjo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo5NTo6Njo6Njs6Njk6ODk6Njk6OTk6ODk6Njk6OTk6OTg6OTo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6OgAAOjo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6OjszNTo5Njo6Njo6Njo6Njk6Njk6ODk6OTg6OTg6OzY6OTM2Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6OgAAOjo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo5OTo2OTo5Njo5Njo6NTo6ODk6OTk6OTY6OjY6OjY6OTY5Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6OgAAOjo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6OjYzODo2OTo5OTo6Njo6Njk6OTk6OTY6OjY6OjY1Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6OgAAOjo6Ojo6Ojo6Ojo6Ojo6Ojo6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m////8AA////8mZMj////8AA/////iZsn////8AA/////0RM/////8AA/////+RH/////8AA/////////////8AA/////////////8AA><style>.sf-hidden{display:none!important}</style><link rel=canonical href=https://mnustdch.menofia.education/static/PortalStudent.html#><meta http-equiv=content-security-policy content="default-src 'none'; font-src 'self' data:; img-src 'self' data:; style-src 'unsafe-inline'; media-src 'self' data:; script-src 'unsafe-inline' data:; object-src 'self' data:; frame-src 'self' data:;"></head>
+<body  style=direction:rtl>
+
+<div id="password-screen" aria-label="Password protection">
+  <div class="password-box">
+    <h2>Password Required</h2>
+    <p>Enter the password to continue.</p>
+    <input id="page-password" type="password" autocomplete="off" aria-label="Password" placeholder="Password">
+    <button id="password-submit" type="button">Unlock</button>
+    <div id="password-error" role="alert" aria-live="polite"></div>
+  </div>
+</div>
+<script id="basic-password-protection-script">
+(function () {
+  "use strict";
+
+  var CORRECT_PASSWORD = "30611058801198";
+  var screen = document.getElementById("password-screen");
+  var input = document.getElementById("page-password");
+  var button = document.getElementById("password-submit");
+  var error = document.getElementById("password-error");
+
+  function unlock() {
+    if (input.value === CORRECT_PASSWORD) {
+      document.body.classList.add("password-unlocked");
+      error.textContent = "";
+      input.value = "";
+    } else {
+      error.textContent = "Incorrect password";
+      input.focus();
+      input.select();
+    }
+  }
+
+  button.addEventListener("click", unlock);
+  input.addEventListener("keydown", function (event) {
+    if (event.key === "Enter") {
+      unlock();
+    }
+  });
+
+  input.focus();
+}());
+</script>
+
+<div id=homeDiv><style class=sf-hidden>body section[role=navigation]{padding:25px 0px;top:0px;width:271px;height:auto;position:absolute;background-color:#dde4e7}#portal-nav ul li a{background-position:230px 8px;font-weight:bold;background-repeat:no-repeat;-webkit-transition:color 400ms ease;-moz-transition:color 400ms ease}</style><div class=fixed-wraper id=portalDiv dir=rtl>
+ <section role=main id=main style=margin-right:271px;margin-left:0px>
+ <div id=divContents style=width:100%;padding:15px;box-sizing:border-box><div class=grades-header dir=rtl><h1>النتائج الدراسية</h1><h3></h3></div>
+ <div class=student-info-card dir=rtl>
+ <table style=width:100%>
+ <tbody><tr>
+ <td style=text-align:right;width:33%>
+ <span class=student-label>اسم الطالب :</span>
+ <span class=student-value>رابح فهد ابراهيم على نورالدين</span>
+ </td>
+ <td style=text-align:right;width:33%>
+ <span class=student-label>المستوي :</span>
+ <span class=student-value>المستوى 1</span>
+ </td>
+ <td style=text-align:right;width:34%>
+ <span class=student-label>حالة القيد :</span>
+ <span class=student-value>مستجد</span>
+ </td>
+ </tr>
+ </table>
+ </div>
+ <div class=semester-title dir=rtl>
+ الأول 2024-2025
+ </div><div class=grades-container><table class=grades-table dir=ltr><thead><tr><th style=text-align:center;width:15%>كود المقرر <th style=text-align:center;width:20%>اسم المقرر <th style=text-align:center;width:15%>الساعات المعتمده <th style=text-align:center;width:15%>التقدير <tbody><tr><td style=text-align:center>GEN 001<td style=TEXT-ALIGN:right>مدخل الى الجودة<td style=text-align:center>1<td style=text-align:center><span>B-</span><tr><td style=text-align:center>GEN 002E2<td style=TEXT-ALIGN:right>تاريخ الهندسة والتكنولوجيا<td style=text-align:center>1<td style=text-align:center><span>C</span><tr><td style=text-align:center>BAS 001<td style=TEXT-ALIGN:right>رياضيات 1<td style=text-align:center>3<td style=text-align:center><span>D</span><tr><td style=text-align:center>BAS 002<td style=TEXT-ALIGN:right>فيزياء 1 <td style=text-align:center>3<td style=text-align:center><span>D</span><tr><td style=text-align:center>BAS 003<td style=TEXT-ALIGN:right>استاتيكا<td style=text-align:center>3<td style=text-align:center><span>D</span><tr><td style=text-align:center>ENG 002<td style=TEXT-ALIGN:right>رسم هندسي<td style=text-align:center>3<td style=text-align:center><span>B</span><tr><td style=text-align:center>BAS 006<td style=TEXT-ALIGN:right>كيمياء هندسية<td style=text-align:center>3<td style=text-align:center><span>D+</span></table></div><div class=semester-summary dir=rtl><span>الساعات المسجله : <strong class=highlight>17</strong></span> &nbsp;&nbsp;&nbsp;<span>الساعات الحاصل عليها : <strong class=highlight>17</strong></span>&nbsp;&nbsp;&nbsp;<span>المعدل الفصلي : <strong class=highlight>1.564</strong></span> &nbsp;&nbsp;&nbsp;<span>المعدل التراكمي : <strong class=highlight>1.564</strong></span></div><br><div class=semester-title dir=rtl>
+ الثانى 2024-2025
+ </div><div class=grades-container><table class=grades-table dir=ltr><thead><tr><th style=text-align:center;width:15%>كود المقرر <th style=text-align:center;width:20%>اسم المقرر <th style=text-align:center;width:15%>الساعات المعتمده <th style=text-align:center;width:15%>التقدير <tbody><tr><td style=text-align:center>GEN 004<td style=TEXT-ALIGN:right>مقدمة الى الحاسبات<td style=text-align:center>3<td style=text-align:center><span>D</span><tr><td style=text-align:center>BAS 004 <td style=TEXT-ALIGN:right>رياضيات 2 <td style=text-align:center>3<td style=text-align:center><span>Fr</span><tr><td style=text-align:center>BAS 005<td style=TEXT-ALIGN:right>فيزياء 2<td style=text-align:center>3<td style=text-align:center><span>D</span><tr><td style=text-align:center>BAS 007<td style=TEXT-ALIGN:right>ديناميكا<td style=text-align:center>3<td style=text-align:center><span>D</span><tr><td style=text-align:center>ENG 003<td style=TEXT-ALIGN:right>رسم هندسي بالحاسب<td style=text-align:center>2<td style=text-align:center><span>F</span></table></div><div class=semester-summary dir=rtl><span>الساعات المسجله : <strong class=highlight>14</strong></span> &nbsp;&nbsp;&nbsp;<span>الساعات الحاصل عليها : <strong class=highlight>9</strong></span>&nbsp;&nbsp;&nbsp;<span>المعدل الفصلي : <strong class=highlight>0.642</strong></span> &nbsp;&nbsp;&nbsp;<span>المعدل التراكمي : <strong class=highlight>1.148</strong></span></div><br><div class=semester-title dir=rtl>
+ الصيفي 2024-2025
+ </div><div class=grades-container><table class=grades-table dir=ltr><thead><tr><th style=text-align:center;width:15%>كود المقرر <th style=text-align:center;width:20%>اسم المقرر <th style=text-align:center;width:15%>الساعات المعتمده <th style=text-align:center;width:15%>التقدير <tbody><tr><td style=text-align:center>ENG 001<td style=TEXT-ALIGN:right>هندسة التصنيع<td style=text-align:center>3<td style=text-align:center><span>D</span><tr><td style=text-align:center>BAS 004 <td style=TEXT-ALIGN:right>رياضيات 2 <td style=text-align:center>3<td style=text-align:center><span>F</span><tr><td style=text-align:center>ENG 003<td style=TEXT-ALIGN:right>رسم هندسي بالحاسب<td style=text-align:center>2<td style=text-align:center><span>B</span></table></div><div class=semester-summary dir=rtl><span>الساعات المسجله : <strong class=highlight>8</strong></span> &nbsp;&nbsp;&nbsp;<span>الساعات الحاصل عليها : <strong class=highlight>5</strong></span>&nbsp;&nbsp;&nbsp;<span>المعدل الفصلي : <strong class=highlight>1.125</strong></span> &nbsp;&nbsp;&nbsp;<span>المعدل التراكمي : <strong class=highlight>1.311</strong></span></div><br><div class=semester-title dir=rtl>
+ الأول 2025-2026
+ </div><div class=grades-container><table class=grades-table dir=ltr><thead><tr><th style=text-align:center;width:15%>كود المقرر <th style=text-align:center;width:20%>اسم المقرر <th style=text-align:center;width:15%>الساعات المعتمده <th style=text-align:center;width:15%>التقدير <tbody><tr><td style=text-align:center>COM 101<td style=TEXT-ALIGN:right>Electronics<td style=text-align:center>3<td style=text-align:center><span>Fr</span><tr><td style=text-align:center>COM 111<td style=TEXT-ALIGN:right>Digital Systems<td style=text-align:center>3<td style=text-align:center><span>D</span><tr><td style=text-align:center>COM 151<td style=TEXT-ALIGN:right>الذكاء الإصطناعي<td style=text-align:center>3<td style=text-align:center><span>D</span><tr><td style=text-align:center>GEN 101<td style=TEXT-ALIGN:right>كتابة التقارير الفنية<td style=text-align:center>2<td style=text-align:center><span>A</span><tr><td style=text-align:center>BAS 004 <td style=TEXT-ALIGN:right>رياضيات 2 <td style=text-align:center>3<td style=text-align:center><span>F</span></table></div><div class=semester-summary dir=rtl><span>الساعات المسجله : <strong class=highlight>14</strong></span> &nbsp;&nbsp;&nbsp;<span>الساعات الحاصل عليها : <strong class=highlight>8</strong></span>&nbsp;&nbsp;&nbsp;<span>المعدل الفصلي : <strong class=highlight>1.000</strong></span> &nbsp;&nbsp;&nbsp;<span>المعدل التراكمي : <strong class=highlight>1.045</strong></span></div><br><div class=semester-title dir=rtl>
+ الثانى 2025-2026
+ </div><div class=grades-container><table class=grades-table dir=ltr><thead><tr><th style=text-align:center;width:15%>كود المقرر <th style=text-align:center;width:20%>اسم المقرر <th style=text-align:center;width:15%>الساعات المعتمده <th style=text-align:center;width:15%>التقدير <tbody><tr><td style=text-align:center>COM 111<td style=TEXT-ALIGN:right>Data Structures <td style=text-align:center>3<td style=text-align:center><span>D</span><tr><td style=text-align:center>ELE 101<td style=TEXT-ALIGN:right>Electrical Engineering<td style=text-align:center>3<td style=text-align:center><span>Fr</span><tr><td style=text-align:center>GEN 102E1<td style=TEXT-ALIGN:right>لغة إنجليزية فنية<td style=text-align:center>1<td style=text-align:center><span>B-</span><tr><td style=text-align:center>COM 251<td style=TEXT-ALIGN:right>Digital Image and Video Processing<td style=text-align:center>3<td style=text-align:center><span>D+</span><tr><td style=text-align:center>GEN 003<td style=TEXT-ALIGN:right>القضايا المجتمعية<td style=text-align:center>1<td style=text-align:center><span>D+</span><tr><td style=text-align:center>BAS 004 <td style=TEXT-ALIGN:right>رياضيات 2 <td style=text-align:center>3<td style=text-align:center><span>D+</span></table></div><div class=semester-summary dir=rtl><span>الساعات المسجله : <strong class=highlight>14</strong></span> &nbsp;&nbsp;&nbsp;<span>الساعات الحاصل عليها : <strong class=highlight>11</strong></span>&nbsp;&nbsp;&nbsp;<span>المعدل الفصلي : <strong class=highlight>1.057</strong></span> &nbsp;&nbsp;&nbsp;<span>المعدل التراكمي : <strong class=highlight>1.490</strong></span></div><br><div class=semester-title dir=rtl>
+ الصيفي 2025-2026
+ </div><div class=grades-container><table class=grades-table dir=ltr><thead><tr><th style=text-align:center;width:15%>كود المقرر <th style=text-align:center;width:20%>اسم المقرر <th style=text-align:center;width:15%>الساعات المعتمده <th style=text-align:center;width:15%>التقدير <tbody><tr><td style=text-align:center>ELE 101<td style=TEXT-ALIGN:right>Electrical Engineering<td style=text-align:center>3<td style=text-align:center><span>D</span><tr><td style=text-align:center>COM 231<td style=TEXT-ALIGN:right>Computer Networks<td style=text-align:center>2<td style=text-align:center><span>C-</span><tr><td style=text-align:center>BAS 004 <td style=TEXT-ALIGN:right>Differential Equations & Numerical Analysis <td style=text-align:center>3<td style=text-align:center><span>C+</span></table></div><div class=semester-summary dir=rtl><span>الساعات المسجله : <strong class=highlight>8</strong></span> &nbsp;&nbsp;&nbsp;<span>الساعات الحاصل عليها : <strong class=highlight>8</strong></span>&nbsp;&nbsp;&nbsp;<span>المعدل الفصلي : <strong class=highlight>1.287</strong></span> &nbsp;&nbsp;&nbsp;<span>المعدل التراكمي : <strong class=highlight>1.63</strong></span></div><br><div class=semester-title dir=rtl></div>
+ </section>
+ <section role=navigation id=navigation>
+ <header style="margin-right:20px;padding:15px 0 10px 0;border-bottom:1px solid #e8eef3">
+ <h1 style="color:rgb(15 19 160);font-weight:bold;margin:0">
+ <font size=4>
+ <p id=logo class=university-name style=margin:0;font-size:17px>Monufia National University</p>
+ <em style=font-size:11px;color:#5a7a9a;font-style:normal>نظام ابن الهيثم لإدارة شئون الطلاب</em>
+ </font>
+ </h1>
+ </header>
+ <section id=user-info style="padding:12px 15px;margin:0 15px 10px 15px;background:linear-gradient(135deg,#f5f9fc 0%,#e8f0f5 100%);border-radius:12px;box-shadow:0 2px 8px rgba(0,0,0,0.04);display:flex;align-items:center;gap:12px">
+ <div style=flex:1;min-width:0>
+ <div id=stdLogName style=font-size:14px;font-weight:600;color:#1a3a5c title="رابح فهد ابراهيم على نورالدين">رابح فهد ابراهيم على...</div>
+ <div style=font-size:12px;color:#5a7a9a;margin-top:2px>البرنامج : <span id=stdProgName style=font-weight:500;color:#1a3a5c title="هندسه الحاسوب">هندسه الحاسوب</span></div>
+ <div style=display:flex;gap:6px;margin-top:8px;flex-wrap:wrap;align-items:center>
+ <a title="Change Language" class=user-action href=# id=changePortalLang style="font-size:11px;color:#2c7ab1;text-decoration:none;padding:3px 12px;background:rgba(44,122,177,0.08);border-radius:14px;transition:all 0.2s;display:inline-block">تغير اللغه</a>
+ <a title="Change Password" class=user-action href=# id=ChangePass style="font-size:11px;color:#2c7ab1;text-decoration:none;padding:3px 12px;background:rgba(44,122,177,0.08);border-radius:14px;transition:all 0.2s;display:inline-block">تغير كلمة المرور</a>
+ <a title="Log out" class=user-action href=# id=LogOutImg>خروج</a>
+ </div>
+ </div>
+ <img alt="User Avatar" src="data:image/gif;base64,R0lGODlhTABYAOYAAAAAAP////7+/v39/fz8/Pv7+/r6+vn5+fj4+Pf39/b29vX19fT09PPz8/Ly8vHx8fDw8O/v7+7u7u3t7ezs7Ovr6+rq6unp6ejo6Ofn5+bm5uXl5ePj4+Li4uHh4eDg4N/f397e3t3d3dzc3Nvb29ra2tjY2NfX19bW1tXV1dPT09DQ0M/Pz87Ozs3NzczMzMvLy8rKysjIyMfHx8bGxsXFxcTExMPDw8LCwsHBwcDAwL+/v76+vry8vLu7u7q6urm5ubi4uLe3t7a2trW1tbS0tLOzs7KysrGxsbCwsK+vr66urq2traysrKurq6qqqqmpqaioqKenp6ampqWlpaSkpP///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAAFYALAAAAABMAFgAQAf/gDZJQ4SFhoeIiUNESkyOj01PUY5HipaXhUo2IAGdnp+gAQgkNFRVp6ipqqusrUYNobGdNpuynwI0rbq7vK08BLaztbYEPb3HyLtLCMG0nMGdGKbJ1Mcl0AHO2BXV3bwV2NnD2Ag/3uenQMDh2uGfBUbovUcJ7p/t9p0u8rwb+Z74QhGg4IIJP35PLGCz4eSgQ4dOxv0LsMAFkSkPmVybKO4ZthIYHyajooGdxFgKbohEh2NAs5OxJKw8VwNaQFkqZlZbYdKjLQHGdB4bIqDnv2JCVc34d9PdvqQlJzb9+aFJ0lRPZMCy5+zBiSVXkzqBYQEYw7BoVUX0yTGAiRxW/6tFISKkhb+2wti6Y0BBAhCdVHZEYApT1gAZaVfJMGB0W5LErH64tFk41AzIrXIcoKwXFAnMypjZmvqJwjTQq4psHl0ZVE7UqY4U4OwuKOwf6152BiUCdqohonVjY6DEd5UijBe2/qQAiW8T7kjbivAk8REPXJfLqhAlLJDZ+aQHeyo0A0fxtsjrjEp4NzT1K420Rd/JAxHfNJLT9jRhRTzjvECxiX4AxQWgSE80dKBITii4IEQ2qDDBhBRWaOGFFoZAgw1HHNNDDCBUYAGGJJY4AQ/aYdNAcfxEQcNg86VoCwPdrUQFCufJCMoANZxy2kw/wBidjgE4UARoQ9TTGP82FoQEmhILLAlNCsaxIKUtr/kmBXusufdJCwdKYZ5w0CxgEIBMKESmLRs8WMUya8aC1INwdglNCW4yEVws6A2wwo++ybBfMAaYA6AUG9mJTZa+1VBUnLYk0KGWEyjnZScHZDApbDxZis0LBybpKTQUHJjClbFYACAV4IwKjRDGCTHkpZ2cYFwPjw4Kja2oOfHArPYcMIJtaQWRq67hGAAWWks4EB6RnpiAFhUctDdRAZsKdaq1/wiAWFLQSQWtJ/CtxGV2tMZSrkjnAjvRug+1i2o48B6UhJLc2nOBDGfqFMULQqLrjgIwPElCbsjGkoGTsNGAagEf1GAEwwA6IUMwBxAoCgEMUrg5jwu/AqQDDg56TA0VPpzAQ3Umy9Ngyy6XDHM1L8/sjRNQ2OwNFIEAADs=" id=UsrImg style="width:52px;height:52px;border-radius:50%;border:2px solid #2c7ab1;object-fit:cover;flex-shrink:0;background:#fff">
+ </section>
+ <nav id=portal-nav style=margin-right:20px>
+ <ul id=portal_menu style=direction:rtl;text-align:right><li> <li style=text-align:right><a title class="dashboard no-submenu" href=# order=2 id=prsData><span class=menu-icon>👤</span><span class=menu-text>البيانات الاساسيه</span></a> <li style=text-align:right><a title class="projects no-submenu" href=# order=3 id=timetable><span class=menu-icon>📋</span><span class=menu-text>التسجيل الأكاديمى</span></a> <li style=text-align:right><a title class="projects no-submenu" href=# order=4 id=studytable><span class=menu-icon>📅</span><span class=menu-text>الجدول الدراسى </span></a> <li style=text-align:right><a title class="products no-submenu" href=# order=8 id=examtable><span class=menu-icon>📝</span><span class=menu-text>جدول الامتحانات</span></a> <li style=text-align:right><a title class="projects no-submenu" href=# order=9 id=Questionnaire><span class=menu-icon>📋</span><span class=menu-text>الاستبيان</span></a> <li style=text-align:right class=current><a title class="events no-submenu" href=# order=10 id=crsGrd><span class=menu-icon>📊</span><span class=menu-text>تقديرات المقررات</span></a> <li style=text-align:right><a title class="list no-submenu" href=# order=11 id=progDsr><span class=menu-icon>🎯</span><span class=menu-text>رغبات الالتحاق</span></a> <li style=text-align:right><a title class="registerReport no-submenu" href=# order=13 id=registerReport><span class=menu-icon>📋</span><span class=menu-text>استمارة التسجيل </span></a> <li style=text-align:right><a title class="list no-submenu" href=# order=11 id=coursesDsr><span class=menu-icon>📚</span><span class=menu-text>تسجيل رغبات المقررات</span></a> <li style=text-align:right><a title class="products no-submenu" href=# order=15 id=AcdWarnData><span class=menu-icon>🔴</span><span class=menu-text>الانذارات الأكاديميه</span></a> <li style=text-align:right><a title class="products no-submenu" href=# order=13 id=electronic_payment><span class=menu-icon>💳</span><span class=menu-text>الدفع الالكترونى </span></a> <li style=text-align:right><a title class="dashboard no-submenu" href=# order=31 id=militarystatus><span class=menu-icon>🎖️</span><span class=menu-text>التربية العسكرية</span></a> <li style=text-align:right><a title class="projects no-submenu" href=# order=32 id=Sanctions><span class=menu-icon>⚠️</span><span class=menu-text>الجزاءات</span></a> </ul>
+ </nav>
+ </section>
+</div></div>
